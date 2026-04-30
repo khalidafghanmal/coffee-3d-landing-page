@@ -640,7 +640,7 @@ export default function HomePage() {
             </div>
             <div className="location__card reveal">
               <h3 className="location__title">Contact</h3>
-              <p className="location__text">+93 793237732</p>
+              <p className="location__text">+93 793237732</p> 
               <p className="location__text">khalidafghanmal2003@gmail.com</p>
             </div>
           </div>
