@@ -364,7 +364,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <i className="bx bx-check" /> 3 drinks + beans
-                </li>
+                </li> 
                 <li>
                   <i className="bx bx-check" /> Priority support
                 </li>
