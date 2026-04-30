@@ -29,7 +29,7 @@ export default function SiteLayout() {
     <>
       <Navbar key={`${location.pathname}${location.hash}`} />
       <main className="l-main">
-        <Outlet />
+        <Outlet /> 
       </main>
       <Footer />
     </>
