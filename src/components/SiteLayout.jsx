@@ -18,7 +18,7 @@ export default function SiteLayout() {
   useEffect(() => {
     if (!location.hash) return
     const id = location.hash.replace('#', '')
-    if (!id) return
+    if (!id) return 
 
     // Wait a tick so the page has rendered the target section
     const t = window.setTimeout(() => scrollToId(id), 0)
