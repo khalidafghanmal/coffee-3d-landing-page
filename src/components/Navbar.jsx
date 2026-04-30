@@ -9,7 +9,7 @@ const navItems = [
   { id: 'gallery', label: 'Gallery' },
   { id: 'faq', label: 'FAQ' },
   { id: 'contact', label: 'Contact' },
-]
+] 
 
 export default function Navbar() {
   const location = useLocation()
