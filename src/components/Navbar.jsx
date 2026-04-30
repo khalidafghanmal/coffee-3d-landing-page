@@ -41,7 +41,7 @@ export default function Navbar() {
                 <NavLink 
                   to={`/#${item.id}`}
                   className={`nav__link ${activeHash === item.id ? 'active' : ''}`}
-                  onClick={() => setOpen(false)}
+                  onClick={() => setOpen(false)} 
                 >
                   {item.label}
                 </NavLink>
