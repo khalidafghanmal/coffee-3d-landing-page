@@ -256,7 +256,7 @@ export default function HomePage() {
               <i className="bx bx-diamond about__icon" />
               <h3 className="about__card-title">Premium feel</h3>
               <p className="about__card-text">Minimal design, modern details, best UX.</p>
-            </div>
+            </div> 
           </div>
         </div>
       </section>
