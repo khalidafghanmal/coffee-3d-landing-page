@@ -671,7 +671,7 @@ export default function HomePage() {
                 <option value="wholesale">Wholesale</option>
               </select>
               <button className="contact__button" type="submit">
-                Notify me
+                Notify me 
               </button>
             </form>
           </div>
