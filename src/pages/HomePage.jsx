@@ -405,7 +405,7 @@ export default function HomePage() {
             <p className="section__subtitle reveal">
               Projects We’re Proud Of. Take a look at some of our successful projects — each one is a
               success story.
-            </p>
+            </p> 
           </div> 
 
           <div className="iso-filters reveal" aria-label="Portfolio filters">
