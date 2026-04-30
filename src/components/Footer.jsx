@@ -37,7 +37,7 @@ export default function Footer() {
             href="http://khalidafghanmal.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            aria-label="Website"
+            aria-label="Website" 
           > 
             <i className="bx bx-globe" />
           </a>
