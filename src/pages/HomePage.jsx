@@ -392,7 +392,7 @@ export default function HomePage() {
               </ul>
               <a href="/#contact" className="pricing__button">
                 Talk to Sales 
-              </a>
+              </a> 
             </article>
           </div>
         </div>
