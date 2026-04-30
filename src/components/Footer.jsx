@@ -6,7 +6,7 @@ export default function Footer() {
   useEffect(() => {
     // keep year correct in long-lived sessions
     const t = window.setInterval(() => setYear(new Date().getFullYear()), 60_000)
-    return () => window.clearInterval(t)
+    return () => window.clearInterval(t) 
   }, [])
 
   return (
