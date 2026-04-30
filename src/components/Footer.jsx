@@ -21,7 +21,7 @@ export default function Footer() {
             rel="noreferrer"
             aria-label="GitHub"
           >
-            <i className="bx bxl-github" />
+            <i className="bx bxl-github" /> 
           </a>
           <a
             className="footer__link"
