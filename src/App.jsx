@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/faq" element={<Navigate to="/#faq" replace />} />
         <Route path="/contact" element={<Navigate to="/#contact" replace />} />
 
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} /> 
       </Route> 
     </Routes>
   )
