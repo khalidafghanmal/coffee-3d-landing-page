@@ -25,7 +25,7 @@ export default function SiteLayout() {
     return () => window.clearTimeout(t)
   }, [location.hash, location.key])
 
-  return (
+  return ( 
     <>
       <Navbar key={`${location.pathname}${location.hash}`} /> 
       <main className="l-main">
