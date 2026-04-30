@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default function Footer() {
+export default function Footer() { 
   const [year, setYear] = useState(new Date().getFullYear())
 
   useEffect(() => {
