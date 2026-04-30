@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/contact" element={<Navigate to="/#contact" replace />} />
 
         <Route path="*" element={<Navigate to="/" replace />} />
-      </Route>
+      </Route> 
     </Routes>
   )
 }
