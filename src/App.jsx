@@ -10,7 +10,7 @@ export default function App() {
 
         {/* Optional section routes (all render the same one-page app) */}
         <Route path="/home" element={<Navigate to="/#home" replace />} />
-        <Route path="/about" element={<Navigate to="/#about" replace />} />
+        <Route path="/about" element={<Navigate to="/#about" replace />} /> 
         <Route path="/menu" element={<Navigate to="/#menu" replace />} />
         <Route path="/portfolio" element={<Navigate to="/#portfolio" replace />} />
         <Route path="/gallery" element={<Navigate to="/#gallery" replace />} />
