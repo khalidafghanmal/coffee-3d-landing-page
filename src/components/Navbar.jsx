@@ -18,7 +18,7 @@ export default function Navbar() {
   const activeHash = useMemo(() => (location.hash || '#home').replace('#', ''), [location.hash])
 
   return (
-    <header className="l-header">
+    <header className="l-header"> 
       <nav className="nav bd-grid">
         <div>
           <NavLink to="/#home" className="nav__logo">
