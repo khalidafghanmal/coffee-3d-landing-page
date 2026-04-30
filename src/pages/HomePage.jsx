@@ -349,7 +349,7 @@ export default function HomePage() {
               </ul>
               <a href="/#contact" className="pricing__button">
                 Choose Starter
-              </a>
+              </a> 
             </article>
 
             <article className="pricing__card pricing__card--featured reveal">
