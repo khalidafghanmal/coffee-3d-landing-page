@@ -26,7 +26,7 @@ export default function Footer() {
           <a
             className="footer__link"
             href="https://af.linkedin.com/in/khalid-afghanmal-660a83382" 
-            target="_blank"
+            target="_blank" 
             rel="noreferrer"
             aria-label="LinkedIn"
           >
