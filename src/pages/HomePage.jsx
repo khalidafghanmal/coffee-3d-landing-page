@@ -406,7 +406,7 @@ export default function HomePage() {
               Projects We’re Proud Of. Take a look at some of our successful projects — each one is a
               success story.
             </p>
-          </div>
+          </div> 
 
           <div className="iso-filters reveal" aria-label="Portfolio filters">
             {FILTERS.map((f) => (
