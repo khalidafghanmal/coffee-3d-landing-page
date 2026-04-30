@@ -11,7 +11,7 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <div className="footer__container bd-grid">
+      <div className="footer__container bd-grid"> 
         <p className="footer__copy">© {year} Khalid Afghanmal. Made by me.</p>
         <div className="footer__social">
           <a
