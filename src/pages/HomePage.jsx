@@ -501,7 +501,7 @@ export default function HomePage() {
               <p className="testimonials__quote">
                 “Looks premium, tastes even better. The smoothest latte.”
               </p>
-              <span className="testimonials__name">— Amina</span>
+              <span className="testimonials__name">— Amina</span> 
             </article>
             <article className="testimonials__card reveal">
               <p className="testimonials__quote">“Perfect balance. I love the clean design and animations.”</p>
