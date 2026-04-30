@@ -10,7 +10,7 @@ function scrollToId(id) {
   // Header is fixed; CSS already offsets body margin, but this helps on redirects
   el.scrollIntoView({ behavior: 'smooth', block: 'start' }) 
   return true
-}
+} 
 
 export default function SiteLayout() {
   const location = useLocation()
