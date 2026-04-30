@@ -13,7 +13,7 @@ export default function App() {
         <Route path="/about" element={<Navigate to="/#about" replace />} /> 
         <Route path="/menu" element={<Navigate to="/#menu" replace />} /> 
         <Route path="/portfolio" element={<Navigate to="/#portfolio" replace />} />
-        <Route path="/gallery" element={<Navigate to="/#gallery" replace />} />
+        <Route path="/gallery" element={<Navigate to="/#gallery" replace />} /> 
         <Route path="/faq" element={<Navigate to="/#faq" replace />} />
         <Route path="/contact" element={<Navigate to="/#contact" replace />} />
 
