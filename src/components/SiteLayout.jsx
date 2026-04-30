@@ -27,7 +27,7 @@ export default function SiteLayout() {
 
   return (
     <>
-      <Navbar key={`${location.pathname}${location.hash}`} />
+      <Navbar key={`${location.pathname}${location.hash}`} /> 
       <main className="l-main">
         <Outlet /> 
       </main>
