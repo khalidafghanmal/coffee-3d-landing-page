@@ -517,7 +517,7 @@ export default function HomePage() {
 
       <section className="cta">
         <div className="cta__container bd-grid">
-          <div className="cta__card reveal">
+          <div className="cta__card reveal"> 
             <div className="cta__text">
               <h2 className="cta__title">Ready to serve better coffee?</h2>
               <p className="cta__subtitle">Get a weekly plan or a business quote in minutes.</p>
