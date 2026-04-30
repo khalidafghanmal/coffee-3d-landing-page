@@ -664,7 +664,7 @@ export default function HomePage() {
               />
               <select className="contact__input" name="topic" required defaultValue="">
                 <option value="" disabled>
-                  What do you need?
+                  What do you need? 
                 </option>
                 <option value="subscription">Subscription</option>
                 <option value="events">Events &amp; Catering</option>
