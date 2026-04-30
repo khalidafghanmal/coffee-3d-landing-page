@@ -559,7 +559,7 @@ export default function HomePage() {
             <p className="section__subtitle reveal">Three simple steps — order, brew, enjoy.</p>
           </div>
 
-          <div className="how__grid">
+          <div className="how__grid"> 
             <article className="how__card reveal">
               <span className="how__step">01</span>
               <h3 className="how__title">Pick a drink</h3>
