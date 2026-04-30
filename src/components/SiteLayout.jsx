@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 
-function scrollToId(id) {
+function scrollToId(id) { 
   const el = document.getElementById(id)
   if (!el) return false
 
