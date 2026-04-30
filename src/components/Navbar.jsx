@@ -44,7 +44,7 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
-                </NavLink>
+                </NavLink> 
               </li>
             ))}
           </ul>
