@@ -38,7 +38,7 @@ export default function Navbar() {
           <ul className="nav__list">
             {navItems.map((item) => (
               <li key={item.id} className="nav__item">
-                <NavLink
+                <NavLink 
                   to={`/#${item.id}`}
                   className={`nav__link ${activeHash === item.id ? 'active' : ''}`}
                   onClick={() => setOpen(false)}
