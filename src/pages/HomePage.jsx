@@ -204,7 +204,7 @@ export default function HomePage() {
     <div ref={rootRef}>
       <section className="home" id="home">
         <div className="home__container bd-grid">
-          <div className="home__img" ref={heroImgRef}>
+          <div className="home__img" ref={heroImgRef}> 
             <img src="/assets/img/img1.png" alt="" data-speed="-2" className="move" />
             <img src="/assets/img/img2.png" alt="" data-speed="2" className="move" />
             <img src="/assets/img/img3.png" alt="" data-speed="2" className="move" />
