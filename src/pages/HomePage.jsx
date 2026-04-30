@@ -190,7 +190,7 @@ export default function HomePage() {
           })
         })
       }
-    }, root)
+    }, root) 
 
     return () => ctx.revert()
   }, [reducedMotion])
@@ -227,17 +227,6 @@ export default function HomePage() {
               <a href="/#services" className="home__button home__button--ghost">
                 Get Services
               </a>
-            </div>
-            <div className="home__trust">
-              <span className="home__trust-item">
-                <i className="bx bx-check-shield" /> Fresh &amp; safe
-              </span>
-              <span className="home__trust-item">
-                <i className="bx bx-time-five" /> Fast delivery
-              </span>
-              <span className="home__trust-item">
-                <i className="bx bx-star" /> Top rated
-              </span>
             </div>
           </div>
         </div>
@@ -651,8 +640,8 @@ export default function HomePage() {
             </div>
             <div className="location__card reveal">
               <h3 className="location__title">Contact</h3>
-              <p className="location__text">+1 (000) 000-0000</p>
-              <p className="location__text">hello@coffee.com</p>
+              <p className="location__text">+93 793237732</p>
+              <p className="location__text">khalidafghanmal2003@gmail.com</p>
             </div>
           </div>
         </div>
