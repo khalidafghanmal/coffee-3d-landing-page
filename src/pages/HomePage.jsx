@@ -328,7 +328,7 @@ export default function HomePage() {
           <div className="section__head">
             <h2 className="section__title reveal">Pricing</h2>
             <p className="section__subtitle reveal">Simple plans. Clear value.</p>
-          </div>
+          </div> 
 
           <div className="pricing__grid">
             <article className="pricing__card reveal">
