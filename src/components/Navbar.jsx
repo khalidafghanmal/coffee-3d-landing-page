@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const navItems = [
   { id: 'home', label: 'Home' },
@@ -21,9 +21,9 @@ export default function Navbar() {
     <header className="l-header"> 
       <nav className="nav bd-grid">
         <div>
-          <NavLink to="/#home" className="nav__logo">
+          <Link to="/#home" className="nav__logo" onClick={() => setOpen(false)}>
             Coffee
-          </NavLink>
+          </Link>
         </div>
 
         <div className="nav__toggle" id="nav-toggle" onClick={() => setOpen((v) => !v)}>
@@ -38,13 +38,13 @@ export default function Navbar() {
           <ul className="nav__list">
             {navItems.map((item) => (
               <li key={item.id} className="nav__item">
-                <NavLink 
+                <Link
                   to={`/#${item.id}`}
                   className={`nav__link ${activeHash === item.id ? 'active' : ''}`}
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
-                </NavLink> 
+                </Link>
               </li>
             ))}
           </ul>
