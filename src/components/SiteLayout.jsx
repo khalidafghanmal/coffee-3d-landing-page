@@ -8,7 +8,7 @@ function scrollToId(id) {
   if (!el) return false
 
   // Header is fixed; CSS already offsets body margin, but this helps on redirects 
-  el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' }) 
   return true
 }
 
