@@ -228,7 +228,7 @@ export default function HomePage() {
                 Get Services
               </a>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
 
