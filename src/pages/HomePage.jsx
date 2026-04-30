@@ -49,7 +49,7 @@ const ISO_DATA = [
   {
     cat: 'latte',
     img: '/assets/img/img5.png',
-    title: 'Mocha Drift',
+    title: 'Mocha Drift', 
     desc: 'Chocolate + espresso with a silky finish.',
     tags: ['Choco', 'Silky', 'Sweet'],
     color: '#C1576A',
