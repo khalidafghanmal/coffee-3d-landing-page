@@ -21,7 +21,7 @@ export default function SiteLayout() {
     if (!id) return 
 
     // Wait a tick so the page has rendered the target section
-    const t = window.setTimeout(() => scrollToId(id), 0)
+    const t = window.setTimeout(() => scrollToId(id), 0) 
     return () => window.clearTimeout(t)
   }, [location.hash, location.key])
 
