@@ -3,7 +3,7 @@ import SiteLayout from './components/SiteLayout.jsx'
 import HomePage from './pages/HomePage.jsx'
 
 export default function App() {
-  return (
+  return ( 
     <Routes>
       <Route element={<SiteLayout />}>
         <Route path="/" element={<HomePage />} />
