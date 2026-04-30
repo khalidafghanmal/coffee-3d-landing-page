@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="footer__container bd-grid"> 
         <p className="footer__copy">© {year} Khalid Afghanmal. Made by me.</p>
         <div className="footer__social">
-          <a
+          <a 
             className="footer__link"
             href="https://github.com/khalidafghanmal"
             target="_blank"
