@@ -43,7 +43,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-    </footer>
+    </footer> 
   ) 
 }
 
