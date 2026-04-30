@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage.jsx'
 
 export default function App() {
   return ( 
-    <Routes>
+    <Routes> 
       <Route element={<SiteLayout />}>
         <Route path="/" element={<HomePage />} />
 
