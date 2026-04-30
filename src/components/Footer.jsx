@@ -32,7 +32,7 @@ export default function Footer() {
           >
             <i className="bx bxl-linkedin" />
           </a>
-          <a
+          <a 
             className="footer__link"
             href="http://khalidafghanmal.netlify.app/"
             target="_blank"
