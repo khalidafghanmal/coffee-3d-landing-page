@@ -30,7 +30,7 @@ export default function Footer() {
             rel="noreferrer"
             aria-label="LinkedIn"
           >
-            <i className="bx bxl-linkedin" />
+            <i className="bx bxl-linkedin" /> 
           </a>
           <a 
             className="footer__link"
